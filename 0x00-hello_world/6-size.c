@@ -1,21 +1,13 @@
-
 #include <stdio.h>
 /**
  * main - Entry point
  *
- * Description: 'the program's description'
+ * Description: "This program prints the sizes of different types."
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-int intType;
-    float floatType;
-    double doubleType;
-    char charType;
-
-    // sizeof evaluates the size of a variable
-    printf("Size of int: %zu bytes\n", sizeof(intType));
-    printf("Size of float: %zu bytes\n", sizeof(floatType));
-    printf("Size of long int: %zu bytes\n", sizeof(doubleType));
-    printf("Size of char: %zu byte\n", sizeof(charType));
-return (0); }
+printf("Size of a char: %c", sizeof(char));
+printf("Size of an int: %d", sizeof(int));
+printf("Size of a long int: %ld", sizeof(long int));
+printf("Size of a long long int: %ld", sizeof(long long int));
+printf("Size of a float: %f", sizeof(long int));
