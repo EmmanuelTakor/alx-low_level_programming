@@ -7,9 +7,14 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{ printf("Size of a char: %c \n", sizeof(char));
-printf("Size of an int: %d \n", sizeof(int));
-printf("Size of a long int: %ld \n", sizeof(long int));
-printf("Size of a long long int: %ld \n", sizeof(long long int));
-printf("Size of a float: %f \n", sizeof(float));
+{int intType;
+char charType;
+long int longIntType;
+long long int longLongIntType;
+float floatType;
+printf("Size of a char: %c \n", sizeof(charType));
+printf("Size of an int: %d \n", sizeof(intType));
+printf("Size of a long int: %ld \n", sizeof(longIntType));
+printf("Size of a long long int: %ld \n", sizeof(longLongIntType));
+printf("Size of a float: %f \n", sizeof(floatType));
 return (0); }
