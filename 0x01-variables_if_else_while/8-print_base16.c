@@ -7,11 +7,11 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{int base16;
+{int baseNumbers;
 char letters;
-for (base16 = 0; base16 < 10; base16++)
-{ putchar(base16); }
-for (letters = 'a'; letters < 'e'; letters++)
+for (baseNumbers = 0; baseNumbers < 10; baseNumbers++)
+{ putchar(baseNumbers); }
+for (letters = 'a'; letters <= 'f'; letters++)
 {putchar(letters); }
 putchar('\n');
 
