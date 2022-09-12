@@ -10,7 +10,6 @@ int main(void)
 {int num;
 for (num = 0; num < 10; num++)
 {printf("%d", num);
-if (num < 10)
+if (num < 9)
 {printf(", "); }}
-printf("\n");
 return (0); }
