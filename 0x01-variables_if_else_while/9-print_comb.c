@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main()
 {int num;
 for (num = 1; num < 10; num++)
 {printf("%d ,", num);
