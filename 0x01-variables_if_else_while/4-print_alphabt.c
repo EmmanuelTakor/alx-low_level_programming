@@ -13,6 +13,7 @@ for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
 (alphabet != 'e' && alphabet != 'q')
 { putchar(alphabet); }
 else
-{ continue } }
+{ alphabet++;
+alphabet--; } }
 putchar('\n');
 return (0); }
