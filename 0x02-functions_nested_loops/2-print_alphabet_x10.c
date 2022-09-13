@@ -8,11 +8,9 @@
 int main(void)
 {char letter;
 int count;
-for (count = 0; count < 10; count++;{
-for (letter = 'a'; letter < 'z'; letter++; )
-{ putchar(letter); }
-}
-putchar("\n");
-
-    return (0);
-}
+for (count = 0; count < 10; count++)
+{
+for (letter = 'a'; letter < 'z'; letter++)
+{ putchar(letter); }}
+putchar('\n');
+return (0); }
