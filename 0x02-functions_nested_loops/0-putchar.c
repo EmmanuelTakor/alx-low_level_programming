@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *
+ * complete - function used to evaluate
  * Description: 'the program's description'
  *
  * Return: Always 0 (Success)
@@ -11,6 +11,7 @@ void complete(char *s);
 int main(void)
 {char s[] = "_putchar";
 complete(s);
+putchar("\n");
 return (0);
 
 }
