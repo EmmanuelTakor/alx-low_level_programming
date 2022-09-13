@@ -7,6 +7,13 @@
  *
  * Return: Always 0 (Success)
  */
+/**
+ * complete - Entry point
+ *
+ * Description: 'the program's description'
+ *
+ * Return: Always 0 (Success)
+ */
 void complete(char *s);
 int main(void)
 {char s[] = "_putchar\n";
