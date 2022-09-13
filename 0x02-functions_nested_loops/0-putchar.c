@@ -9,9 +9,8 @@
  */
 void complete(char *s);
 int main(void)
-{char s[] = "_putchar";
+{char s[] = "_putchar\n";
 complete(s);
-putchar("\n");
 return (0);
 
 }
