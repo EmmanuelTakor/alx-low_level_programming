@@ -7,10 +7,6 @@
  * Return: Always 0 (Success)
  */
 
-/**
- * complete - Prints "_putchar"
- */
-
 void complete(char *s);
 int main(void)
 {char s[] = "_putchar\n";
@@ -18,6 +14,13 @@ complete(s);
 return (0);
 
 }
+/**
+ * complete - Prints "_putchar"
+ * Description: "the program's description"
+ * @s: "This is an argument"
+ * Return: Always 0 (Success)
+ */
+
 void complete(char *s)
 { int i = 0;
 while (s[i] != '\n' && s[i] != '\0')
