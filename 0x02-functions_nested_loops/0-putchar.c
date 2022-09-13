@@ -2,18 +2,15 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * complete - function used to evaluate
- * Description: 'the program's description'
- *
+ * Description: "the program's description"
+ * @s: "This is an argument"
  * Return: Always 0 (Success)
  */
+
 /**
- * complete - Entry point
- *
- * Description: 'the program's description'
- *
- * Return: Always 0 (Success)
+ * complete - Prints "_putchar"
  */
+
 void complete(char *s);
 int main(void)
 {char s[] = "_putchar\n";
