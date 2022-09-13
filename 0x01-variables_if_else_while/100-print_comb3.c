@@ -8,9 +8,9 @@
  */
 int main(void)
 { int num;
-for (num = '0'; num <= '89'; num++)
+for (num = 0; num <= 89; num++)
 {putchar (num + '0');
-if (num < '89')
+if (num < 89)
 {putchar(',');
 putchar(' '); }}
 return (0); }
