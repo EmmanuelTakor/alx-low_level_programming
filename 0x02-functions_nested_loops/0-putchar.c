@@ -18,4 +18,5 @@ void complete(char *s)
 { int i = 0;
 while (s[i] != '\n' && s[i] != '\0')
 { putchar (s[i]);
-i++; }}
+i++; }
+putchar('\n'); }
