@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - Entry point
  *
@@ -6,10 +7,15 @@
  *
  * Return: Always 0 (Success)
  */
+void complete(char *s);
 int main(void)
-{char s[] = "_putchar\n";
-int i = 0;
+{char s[] = "_putchar";
+complete(s);
+return (0);
+
+}
+void complete(char *s)
+{ int i = 0;
 while (s[i] != '\n' && s[i] != '\0')
-{ putchar(s[i]);
-i++; }
-return (0); }
+{ putchar (s[i]);
+i++; }}
