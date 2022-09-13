@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * print_alphabet - Prints alphabets
  * Description: "the program's description"
