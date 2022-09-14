@@ -1,10 +1,13 @@
 #include "main.h"
 
 /**
- * main - check the code.
- *
+ * _islower - check the code.
+ *@c:"This is a parameter"
  * Return: Always 0.
  */
-int main(void)
-{return (0);
-}
+int _islower(int c)
+{int c;
+if (c > 64 && c < 91)
+{return (1); }
+else
+{return (0); }}
