@@ -16,7 +16,7 @@ if (i < 10)
 _putchar (i + '0'); }
 else if (i >= 10)
 {_putchar((i / 10) + '0');
-_putchar((i % '10' + '0');
+_putchar((i % 10 + '0');
 if (j < 10)
 {_putchar(':');
 _putchar ('0');
