@@ -11,5 +11,5 @@
 
 int _isdigit(int c)
 {
-return (c >= 'A' && c <= 'Z');
+return (c >= 1 && c <=9);
 }
