@@ -9,7 +9,7 @@
  * @i:"This is a parameter"
  * Return: Always 0 (Success)
  */
-int positive_or_negative(i)
+void positive_or_negative(int i)
 {int n;
 srand(time(0));
 n = i
