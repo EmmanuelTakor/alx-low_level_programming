@@ -1,3 +1,7 @@
+#ifndef MAIN_H
+#define MAIN_H
+
+#include <stdio.h>
 int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
@@ -22,3 +26,4 @@ void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
 void print_number(int n);
+#endif /* MAIN_H */
