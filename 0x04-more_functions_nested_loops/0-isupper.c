@@ -7,7 +7,6 @@
  *
 * Return: Always 0 (Success)
  */
-
 int _isupper(int c)
 {
 if (c >= 'A' && c <= 'Z')
