@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  * _isdigit - prints alphabets in lower case
  *@c:"c is a parameter"
