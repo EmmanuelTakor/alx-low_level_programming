@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
  * print_numbers - prints alphabets in lower case
  * Description: 'the program's description'
@@ -6,7 +6,7 @@ i#include "main.h"
  */
 
 void print_numbers(void)
-{char i;
-for (i ='0'; i <= '9'; i++)
+{int i;
+for (i = 0; i <= 9; i++)
 {_putchar(i + '0'); }
 _putchar('\n'); }
