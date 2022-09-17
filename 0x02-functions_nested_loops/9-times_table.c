@@ -9,5 +9,5 @@ void times_table(void)
 {int i;
 for (i = 0; i <= 9; i++)
 {_putchar((i * 0) + '0');
-_putchar(', ');
+printf(', ');
 _putchar((i * 1) + '0'); }}
