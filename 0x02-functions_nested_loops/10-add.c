@@ -3,7 +3,8 @@
 
 /**
  *  * add - adds intergers
- *   @int:"type of parameter to be returned"
+ *   @a:"type of parameter to be returned"
+ *   @b:"type of parameter to be returned"
  *    * Return: Always 0.
  */
 int add(int a, int b)
