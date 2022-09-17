@@ -6,5 +6,5 @@
  *   @int:"type of parameter to be returned"
  *    * Return: Always 0.
  */
-int add(int, int)
-{return int + int; }
+int add(int a, int b)
+{return a + b; }
