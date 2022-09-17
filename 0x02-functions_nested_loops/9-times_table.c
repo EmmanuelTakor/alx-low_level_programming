@@ -25,5 +25,4 @@ printf(", ");
 _putchar((i * 8) + '0');
 printf(", ");
 _putchar((i * 9) + '0'); }
-_putchar("\n"); }
-}
+printf("\n"); }
