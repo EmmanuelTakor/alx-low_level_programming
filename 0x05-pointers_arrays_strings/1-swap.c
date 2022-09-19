@@ -11,4 +11,5 @@
 void swap_int(int *a, int *b)
 {
 *a = 42;
-*b = 98; }
+*b = 98;
+printf("a=%p, b=%p\n", a, b); }
