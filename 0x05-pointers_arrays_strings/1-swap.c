@@ -9,6 +9,5 @@
  */
 
 void swap_int(int *a, int *b)
-{int a;
-int b;
-return (*a = 42 && *b = 98); }
+{*a = 42;
+*b = 98; }
