@@ -9,5 +9,10 @@
  */
 
 void swap_int(int *a, int *b)
-{a = &b;
-b = &a; }
+{int firt;
+int sec;
+firt = 98;
+sec = 42;
+&a = firt
+&b = sec;
+}
