@@ -10,9 +10,5 @@
 
 void swap_int(int *a, int *b)
 {
-int one;
-int two;
-one = 98;
-two = 42;
-a = &two;
-b = &one; }
+&a = b;
+&b = a; }
