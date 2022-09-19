@@ -10,6 +10,7 @@
 
 void swap_int(int *a, int *b)
 {
-*a = 42;
-*b = 98;
-printf("a=%p, b=%p\n", a, b); }
+a = 98;
+b = 42;
+*a = &b;
+*b = &a; }
