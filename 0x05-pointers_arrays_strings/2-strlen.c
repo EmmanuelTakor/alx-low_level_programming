@@ -12,5 +12,6 @@ int i;
 for (i = 0;
 *s != '\0';
 ++i)
-return (i);
+_putchar(i);
+return (0);
 }
