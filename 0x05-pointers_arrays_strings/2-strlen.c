@@ -7,8 +7,7 @@
 * Return: Always 0 (Success)
 */
 int _strlen(char *s)
-{char *x = "Hello World";
-char *s = &x;
+{
 int i;
 for (;
 *s != '\0'; s++)
