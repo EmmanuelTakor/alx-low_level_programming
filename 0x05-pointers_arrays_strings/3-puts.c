@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * _puts - function that prints string
 * @str:"This is a parameter"
@@ -7,7 +8,8 @@
 */
 
 void _puts(char *str)
-{str = "hey";
-_putchar(str);
-_putchar('\n');
+{int i;
+for (; *str != '\0' ; *str++ )
+{putchar(*str);
+putchar('\n'); }
 }
