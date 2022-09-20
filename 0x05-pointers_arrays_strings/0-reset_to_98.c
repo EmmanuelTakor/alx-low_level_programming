@@ -8,8 +8,5 @@
 * Return: Always 0 (Success)
 */
 
-void swap_int(int *a, int *b)
-{one = 98;
-two = 42;
-a = &two;
-b = &one; }
+void reset_to_98(int *n)
+{n = 98; }
