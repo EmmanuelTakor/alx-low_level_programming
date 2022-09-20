@@ -10,9 +10,9 @@ int _strlen(char *s)
 {char *x = "Hello World";
 char *s = &x;
 int i;
-for (i = 0;
-*s != '\0';
-++i)
-_putchar(i);
-return (0);
+for (;
+*s != '\0'; s++)
+{i++;
+_putchar(i); }
+return (i);
 }
