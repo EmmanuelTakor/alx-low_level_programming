@@ -7,7 +7,7 @@
  * Return: Always 0 (Success)
  */
 
-void complete(char *s)
-{s[88888888] = "_putchar\n";
+void _puts(char *str)
+{*str[8] = "_putchar\n";
 _putchar(s);
 }
