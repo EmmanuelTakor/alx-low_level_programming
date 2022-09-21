@@ -10,6 +10,6 @@ void more_numbers(void)
 int i;
 for (count = 0; count < 10; count++)
 {
-for (i = 0; i <= 14 ; i++)
+for (i = 0; i <= '14' ; i++)
 {putchar(i); }
 putchar('\n'); }}
