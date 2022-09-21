@@ -8,7 +8,8 @@
 */
 
 void puts2(char *str)
-{
-for (; *str != '\0' ; str+=2)
-{putchar(*str); }
+{int len, i;
+len = strlen(str);
+for (i = 0; i < len; i += 2)
+{putchar(str[i]); }
 putchar('\n'); }
