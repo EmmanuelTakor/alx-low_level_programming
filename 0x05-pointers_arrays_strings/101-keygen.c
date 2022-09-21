@@ -1,8 +1,6 @@
 #include "main.h"
-#include <stdio.h>
 #include <string.h>
 #include <stdio.h>
-#include <conio.h>
 #include <stdlib.h>
 /**
 * password - function that prints string
