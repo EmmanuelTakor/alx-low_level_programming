@@ -6,7 +6,7 @@
 * Return: Always 0 (Success)
 */
 
-int _strlen_recursion(char *s);
+int _strlen_recursion(char *s)
 {
 if (!*s)
 {return (0);
@@ -37,6 +37,6 @@ return (0); }
 */
 
 int is_palindrome(char *s)
-{ int len = _strlen_recursion(s);
+{ int len = _strlen_recursion(s)
 return (p1(s, len - 1));
 
