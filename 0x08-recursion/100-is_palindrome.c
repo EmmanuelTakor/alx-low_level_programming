@@ -23,10 +23,10 @@ return (1 + _strlen_recursion(++s)); }
 
 int p1(char *s, int i)
 {
-if (1 < 1)
+if (i < 1)
 { return (1); }
 if (*s == *(s + i))
-{ return (p1(s + 1, 1 - 2)); }
+{ return (p1(s + 1, i - 2)); }
 return (0); }
 
 /**
