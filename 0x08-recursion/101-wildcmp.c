@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
 * wildcmp - returns the natural square root of a number
 * @s1:"This is a parameter"
