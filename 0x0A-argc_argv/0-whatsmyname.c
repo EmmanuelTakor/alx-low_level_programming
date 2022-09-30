@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include "main.h"
 /**
 * _putchar - writes character vc to stdout
