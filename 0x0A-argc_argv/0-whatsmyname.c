@@ -1,11 +1,14 @@
-#include <unistd.h>
+#include <stdio.h>
 #include "main.h"
 /**
-* _putchar - writes character vc to stdout
-* @c:"This is a parameter"
+* main - writes character vc to stdout
+* @argc:"This is a parameter"
+* @argv:"This is a parameter"
 * Description: "the program's description"
 * Return: Always 0 (Success)
 */
 
-int _putchar(char c)
-{ return (write(1, &c, 1)); }
+int main(int argc, char *argv[])
+{ (void) argc;
+printf("%s\n", argv[o]);
+return (0); }
