@@ -15,8 +15,8 @@ n = 0;
 for (i = 0; i <= n; i++)
 {
 if (n <= 0)
-{ putchar('\n');
-break; }
+{ putchar('\n'); }
 else
 {putchar('_'); }}
-putchar('\n'); }
+if (n > 0)
+{putchar('\n'); }}
