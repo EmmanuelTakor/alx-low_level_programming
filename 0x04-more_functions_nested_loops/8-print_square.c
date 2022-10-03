@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * void print_square - prints straight line
+ * print_square - prints straight line
  * @size:"number of times line should be printed"
  * Description: 'the program's description'
  *
@@ -9,7 +9,8 @@
 
 void print_square(int size)
 {int count;
-for(size = 0; size <= 4 ; size++;)
-{_putchar('##########');
-_putchar('\n');
-return (0); }}
+for (count = 0; count < 4; count++)
+{
+for (size = 0; size <= 6 ; size++)
+{putchar('#'); }
+putchar('\n'); }}
