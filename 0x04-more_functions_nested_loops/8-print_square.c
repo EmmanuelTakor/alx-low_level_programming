@@ -17,4 +17,6 @@ for (i = 0; i < size; i++)
 {
 for (n = 0; n < size; n++)
 {putchar('#'); }
-putchar('\n'); }}}
+putchar('\n'); }}
+else
+{putchar('\n'); }}
