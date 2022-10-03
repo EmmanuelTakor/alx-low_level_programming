@@ -17,4 +17,4 @@ for (count = 0; count < 4; count++)
 {
 for (length = 0; length <= size; length++)
 {putchar('#'); }}}
-putchar('\n'); }}
+putchar('\n'); }
