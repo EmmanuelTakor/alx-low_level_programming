@@ -9,7 +9,6 @@
 
 void print_square(int size)
 {
-size = 20;
 if (size > 0)
 {
 int count;
