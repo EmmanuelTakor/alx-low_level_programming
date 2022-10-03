@@ -9,8 +9,9 @@
 
 void print_square(int size)
 {int count;
+int length;
 for (count = 0; count < 4; count++)
 {
-for (size = 0; size <= 6 ; size++)
+for (length = 0; length <= size; length++)
 {putchar('#'); }
 putchar('\n'); }}
