@@ -13,7 +13,7 @@ if (size > 0)
 {
 int count;
 int length;
-for (count = 0; count < 4; count++)
+for (count = 0; count < size; count++)
 {
 for (length = 0; length <= size; length++)
 {putchar('#'); }}}
