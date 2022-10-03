@@ -13,7 +13,6 @@ size = 20;
 if (size > 0)
 {
 int count;
-int length;
 for (count = 0; count < size; count++)
 {
 putchar('#'); }}
