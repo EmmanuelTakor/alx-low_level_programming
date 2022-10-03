@@ -8,14 +8,13 @@
  */
 
 void print_square(int size)
-{
+{size = 10;
+int i;
+int n;
 if (size > 0)
 {
-int count;
-int length;
-for (count = 0; count < size; count++)
+for (i = 0; i < size; i++)
 {
-for (length = 0; length < size; length++)
-{
-putchar('#'); }}}
-putchar('\n'); }
+for (n = 0; n < size; n++)
+{putchar('#'); }
+putchar('\n'); }}}
