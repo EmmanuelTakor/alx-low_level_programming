@@ -7,5 +7,6 @@
 * Return: Always 0 (Success)
 */
 void print_number(int n)
-{int n;
-return (0); }
+{
+n = 9;
+putchar(n + '0'); }
