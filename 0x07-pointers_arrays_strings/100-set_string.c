@@ -2,12 +2,16 @@
 #include <stdio.h>
 #include <string.h>
 /**
-* void set_string(char **s, char *to)
-* @a:"This is a parameter"
+* _memcpy - a function that copies memory
+* @dest:"This is a parameter"
+* @src:"This is a parameter"
 * @n:"This is a parameter"
 * Description: "the program's description"
 * Return: Always 0 (Success)
 */
 
-void set_string(char **s, char *to)
-{}
+char *_memcpy(char *dest, char *src, unsigned int n)
+{unsigned int i;
+for (i = 0; i < n; i++)
+dest[i] = src[i];
+return (dest); }
